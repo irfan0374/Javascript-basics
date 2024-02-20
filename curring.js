@@ -12,4 +12,15 @@ function a(x) {
 }
 let curring = a(3)(4)(5)
 
-console.log(curring)
+
+// partial application 
+
+// partialy apply  function fixing few argument and create new function with fewer arguments
+
+function app(x,y,z){
+    return x+y+z
+}
+const partialApplication =app.bind(null,2)
+
+
+// console.log(partialApplication(3,4))

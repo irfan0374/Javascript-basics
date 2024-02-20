@@ -1,7 +1,6 @@
 // map
 // map take a array and apply the funtion in each element with creating new Array
 
-
     let score=[3,4,5,6,7,8]
 
 
