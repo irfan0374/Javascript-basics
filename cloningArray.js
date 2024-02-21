@@ -35,4 +35,3 @@ const merge=str1+str2
 const concatStr=str1.concat(str2)
 console.log(concatStr)
 
-

@@ -13,3 +13,7 @@ let obj={
     }
 }
 let x=obj.fullName.bind(tool,300)
+
+
+
+

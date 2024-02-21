@@ -83,20 +83,6 @@
 //     console.log(ele)
 // })
 
-
-// let arr=[13,4,5,6,7]
-// let arr1=[10,11,12,1,2]
-
-// function sort(){
-//     for(let i=0;i<arr.length;i++){
-//         for(let j)
-//     }
-// }
-// console.log(sort) 
-
-
-
-
 // let arr=[1,2,3,4,5,6,7,8]
 
 // let square=arr.map((ele)=>{
@@ -116,8 +102,8 @@
 // }
 // console.log(x(str))
 
+// let binerys="00000000000100101101010000000100011111000000000"
 
-// let binery="00000000000100101101010000000100011111000000000"
 
 // function largestZero(str){
 //     let i=0
@@ -156,7 +142,7 @@
 
 // find the largest string 
 
-// let str="Lorem Ipsum is simply dummy text of the printing and typesetting"
+// let str="Lorem Ipsum is simply dummy text of the prssinting and typesetting "
 
 // function largestString(str){
 //     const word = str.split(' ');
@@ -169,7 +155,6 @@
 //     }
 //  }
 //  return largeword
-    
 // }
 
 
@@ -228,6 +213,7 @@
 //         break;
 // }
 
+
 // - remove elements that start with a vowel
 
 
@@ -252,11 +238,11 @@
 
 // let obj={
 //     name:"irfan",
-//     eima:"placee",
-//     helo:"arr"
+//     age:45
 // }
-// let vowels=['a','e','i','o','u'];
 // for(let x in obj){
+//     console.log(x)
+//     let vowels=["a","e","i","o","u"]
 //     if(vowels.includes(x[0])){
 //         delete obj[x]
 //     }
@@ -319,4 +305,94 @@
 //     },0)
 // }
 
+// let i=0
+// let interval=setInterval(()=>{
+//     console.log(`count:${i}`)
+//     i++
+//     if(i>10){
+//          clearInterval(interval)
+//     }
+
+// },1000)
+
+// let i=1
+
+// do{
+//     if(i%2!=0){
+//         console.log(i)
+//     }
+//     i++
+// }while(i<=10)
+
+
+// find the prime number
+
+// let arr=[3,4,5,6,7,8,9]
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j=2;j<arr[i]/2;j++){
+//         if(arr[i]%j!=0){
+//             console.log(arr[i])
+
+//         }
+//     }
+// }
+
+
+// let arr=[3,4,10,5,6,7,8,9,9]
+
+// let res=arr.reduce((acc,curr)=>{
+//     if(curr>acc.max){
+//         acc.smax=acc.max
+//         acc.max=curr
+//     }else if(curr>acc.smax&&curr!=acc.max){
+//         acc.smax=curr
+//     }
+//     return acc
+
+// },{max:0,smax:0})
+// console.log(res.smax)
+
+
+// const students = [
+//     { name: 'Alice', rollNumber: '12', marks: 85 },
+//     { name: 'Bob', rollNumber: '11', marks: 92 },
+//     { name: 'Charlie', rollNumber: '8', marks: 78 },
+//     { name: 'abin', rollNumber: '4', marks: 87 },
+//     { name: 'bharath', rollNumber: '7', marks: 60 },
+  
+//   ];
+  
+
+// let arr=[3,4,5,6,7,8,9]
+
+// for(let i=0;i<arr.length;i++){
+//     let flag=0;
+//     for(let j=2;j<=arr[i]/2;j++){
+//         if(arr[i]%j!=0){
+//             flag++
+//             break;
+//         }
+//     }
+//     if(flag==0){
+//         console.log("prime",arr[i])
+//     }
+// }
+
+
+//   reverse the number
+
+// function reverse(number){
+
+//     let rev=0
+//     while(number>0){
+//         let rem=number%10
+//         rev=rev*10+rem
+//         number=Math.floor(number/10)
+
+//     }
+//     return rev
+
+// }
+// console.log(reverse(1234))
 

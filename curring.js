@@ -24,3 +24,5 @@ const partialApplication =app.bind(null,2)
 
 
 // console.log(partialApplication(3,4))
+
+

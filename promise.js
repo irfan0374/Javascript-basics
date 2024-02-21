@@ -20,3 +20,20 @@ fetchData(2).then(res=>{
     console.log(err.message)
 })
 
+
+
+fetchData().then((res)=>{
+    console.log(res)
+}).catch((err)=>{
+    console.log(error.message)
+})
+
+
+
+function fetchData(){
+    return new Promise((res,rej)=>{
+        setTimeout(()=>{
+            res("successull")
+        },2000)
+    })
+}

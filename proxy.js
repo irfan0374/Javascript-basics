@@ -18,23 +18,22 @@
 // console.log(proxy.name)
 
 
-const person={
+let obj={
     name:"irfan",
-    age:23
+    age:22
 }
 
-const handler={
+let handler={
     get:function(key,value){
         return key[value]
     },
-    set:function(key,value,setNewValue){
-        key[value]=setNewValue
+    set:function (key ,value,newValue){
+        return key[value]=newValue
     }
 }
+let proxy=new Proxy(obj,handler)
+proxy.name="iqbal"
 
-let proxy=new Proxy(person,handler)
-proxy.name="amaan"
-console.log(proxy.name)
-
+console.log(proxy.age)
 
 
