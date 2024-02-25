@@ -4,6 +4,6 @@ const obj={
     position:"developer"
 }
 
-Object.keys(obj).forEach((values)=>{
-    console.log(values)
+Object.values(obj).forEach((item)=>{
+    console.log(item)
 })

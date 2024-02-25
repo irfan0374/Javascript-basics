@@ -1,4 +1,4 @@
-// // find the secondlargest element in a array
+// find the secondlargest element in a array
 // let arr=[3,4,5,6,7,8,9]
 
 //  function secondlargest(arr){
@@ -14,7 +14,9 @@
 //     }
 //     return secondlarge
 //  }
-//  console.log(secondlargest(arr))
+//  console.log(secondlargest(arr)
+
+
 
 // sum of the element in a array
 // let arr=[3,4,5,6,7,8]
@@ -48,6 +50,7 @@
 //     return duplicates
 // }
 // console.log(duplicate(arr))
+
 
 // find the unique element in a array
 
@@ -101,6 +104,9 @@
 
 // }
 // console.log(x(str))
+
+
+
 
 // let binerys="00000000000100101101010000000100011111000000000"
 
@@ -212,6 +218,7 @@
 //         return false;
 //         break;
 // }
+
 
 
 // - remove elements that start with a vowel
@@ -369,7 +376,7 @@
 // for(let i=0;i<arr.length;i++){
 //     let flag=0;
 //     for(let j=2;j<=arr[i]/2;j++){
-//         if(arr[i]%j!=0){
+//         if(arr[i]%j==0){
 //             flag++
 //             break;
 //         }

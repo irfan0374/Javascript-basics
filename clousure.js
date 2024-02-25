@@ -1,17 +1,17 @@
 // clousure is function bundle with its lexical environment . when the function is return it vaniched in exicution context but it still remember it reference too
 
 
-function payment() {
+// function payment() {
 
-    let amount = 1000
+//     let amount = 1000
 
-    return function paymentsuccess() {
+//     return function paymentsuccess() {
 
-        console.log(amount)
-    }
-}
+//         console.log(amount)
+//     }
+// }
 
 
-let fund = payment()
+// let fund = payment()
 
-fund()
+// fund()

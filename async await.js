@@ -4,29 +4,27 @@
 // await is the keyword only use inside the async funciton and use to pause the function until the promise is resolve or reject
 
 
-async function fetchData(){
-    return new Promise((res,rej)=>{
-        let success=false;
-        if(success){
+async function fetchData() {
+    return new Promise((res, rej) => {
+        let success = true;
+        if (success) {
 
-            let data={message:"data fetch successfull"}
+            let data = { message: "data fetch successfull" }
             res(data)
-        } else{
+        } else {
             rej(new Error("something went wrong"))
         }
-      
+
     })
 }
 
-async function getData(){
-    try{
-        let result=await fetchData()
+async function getData() {
+    try {
+        let result = await fetchData()
         console.log(result.message)
 
-    }catch(erorr){
+    } catch (erorr) {
         console.log(erorr.message)
     }
 }
 getData()
-
-

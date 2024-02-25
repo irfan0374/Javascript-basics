@@ -4,4 +4,6 @@
 // console.log(x)
 
 
-    
+((a,b)=>{
+    console.log(a+b)
+})(10,12)
