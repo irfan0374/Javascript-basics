@@ -9,3 +9,9 @@ let interval=setInterval(()=>{
          clearInterval(interval)
     }
 },1000)
+
+
+const timeout=setTimeout(()=>{
+
+    console.log("hello")
+},200)
