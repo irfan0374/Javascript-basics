@@ -16,7 +16,3 @@
 // let proxy=new Proxy(person,handler)
 // proxy.name="iqbal"
 // console.log(proxy.name)
-
-
-
-

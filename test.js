@@ -91,6 +91,7 @@
 // let square=arr.map((ele)=>{
 //     return ele*ele
 // })
+
 // console.log(square[square.length-2])
 // console.log(square)
 
@@ -191,6 +192,9 @@
 
 //     }
 // }
+
+// const {name,language:{malayalam}}=obj
+
 //  const {malayalam,tamil}=obj.language
 //  console.log(malayalam)
 
@@ -402,4 +406,54 @@
 
 // }
 // console.log(reverse(1234))
+
+
+//flat 2d array
+
+// let TwoDArray=[
+//     [1,2,3,4],
+//     [5,6,7,8],
+//     [9,10,11,12]
+
+// ]
+
+// function flatArray(TwoDArray){
+//     let flat=[]
+//     for(let i=0;i<TwoDArray.length;i++){
+//         for(let j=0;j<TwoDArray[i].length;j++){
+//             flat.push(TwoDArray[i][j])
+//         }
+//     }
+//     return flat
+// }
+// console.log(flatArray(TwoDArray))
+
+// let str="(-+91 (990)-000-9999)"
+
+// function res(str){
+//     let num=""
+//     for(let i=0;i<str.length;i++){
+//         if(str[i]>="0"&&str[i]<="9"){
+//             num+=str[i]
+//         }
+//     }
+//     return Number(num)
+// }
+// console.log(typeof(res(str)))
+
+
+// let obj={
+//     name:"irfan",
+//     age:22
+// }
+
+// let copy={...obj}
+
+// copy.place="puthiyangadi"
+// console.log(copy)
+
+let today=new Date()
+today.setDate(today.getDate()-45)
+
+
 

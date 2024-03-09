@@ -33,6 +33,7 @@ let reduceValue = score.reduce((acc, curr) => {
 },0)
 
 
+
 // forEach
 
 // iterate over the each element of an array and apply the new function to each element but doesnt create a new array

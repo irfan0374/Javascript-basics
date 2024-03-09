@@ -4,7 +4,7 @@
 // create the shallow copy of the array
 
 // slice
-// const ogArray=[2,3,4,5,6,7]
+const ogArray=[2,3,4,5,6,7]
 // const sliceArray=ogArray.slice()
 
 
@@ -22,6 +22,8 @@ const array2=[1,6,7,8,9]
 const array3=[1,2,6,7,4,6]
 const concat=array1.concat(array2)
 
+const result =array2.concat(array2)
+
 
 //concat the string
 
@@ -30,6 +32,7 @@ const str2="irfaan"
 // merge 2 string using + operator
 
 const merge=str1+str2
+
 // concat the string using concat
 
 const concatStr=str1.concat(str2)
