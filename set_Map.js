@@ -2,6 +2,8 @@ let hello= new Set()
 hello.add(2)
 hello.add(3)
 hello.add(4)
+hello.add(9)
+hello.add(6)
 hello.delete(4)
 console.log(hello)
 
