@@ -8,4 +8,3 @@ hello.delete(4)
 console.log(hello)
 
 let hai =new Map()
-hello.Map()

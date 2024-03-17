@@ -14,21 +14,6 @@
 // console.log(counter.next().value)
 
 
-
-// function * calle(limit){
-// let count =1
-// while(count<=limit){
-//     yield count 
-//     count++
-// }
-// }
-// let count=calle(5)
-// console.log(count.next().value)
-// console.log(count.next().value)
-// console.log(count.next().value)
-// console.log(count.next().value)
-
-
 // find the even number using generator function
 
 function *generator(limit){

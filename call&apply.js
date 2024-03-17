@@ -15,21 +15,21 @@
 // let x=obj.fullName.bind(tool,300).
 
 
-const obj={
-    name:"irfan",
-    lastName:"iqbal",
-    fullname:function(score){
-        return this.name+" "+this.lastName+score
-    }
+// const obj={
+//     name:"irfan",
+//     lastName:"iqbal",
+//     fullname:function(score){
+//         return this.name+" "+this.lastName+score
+//     }
 
-}
-const obj1={
-    name:"amaan",
-    lastName:"noushad"
-}
+// }
+// const obj1={
+//     name:"amaan",
+//     lastName:"noushad"
+// }
 
-let res=obj.fullname.bind(obj1,"hello")
-console.log(res())
+// let res=obj.fullname.bind(obj1,"hello")
+// console.log(res())
 
 
 

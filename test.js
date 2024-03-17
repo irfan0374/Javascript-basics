@@ -52,6 +52,7 @@
 // console.log(duplicate(arr))
 
 
+
 // find the unique element in a array
 
 // function unique(arr){
@@ -454,6 +455,6 @@
 
 let today=new Date()
 today.setDate(today.getDate()-45)
-
+console.log(today.toLocaleDateString())
 
 

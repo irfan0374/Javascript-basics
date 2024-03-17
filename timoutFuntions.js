@@ -20,3 +20,26 @@
 
 
 
+ function fetchDate(num){
+    return new Promise((res,rej)=>{
+        setTimeout(()=>{
+            if(num%2==0){
+                res("succesfull")
+            }else{
+                rej(new Error("something went wrong"))
+            }
+            
+        },2000)
+    })
+}
+async function fetch(num){
+    try{
+        const res=await fetchDate(num)
+        console.log(res)
+        
+    }catch(error){
+        console.log(error.message)
+    }
+}
+
+console.log(fetch(2))

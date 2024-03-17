@@ -2,6 +2,7 @@
 
 // splice is used to remove or replace the existing array remove element in new array
 let result=arr.splice(1,2,6,7)
+let result2=arr.splice()
 console.log(arr)
 // result return the remove element with new array
 console.log(result) //[3,4]
