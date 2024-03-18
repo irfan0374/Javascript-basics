@@ -31,7 +31,3 @@
 // let res=obj.fullname.bind(obj1,"hello")
 // console.log(res())
 
-
-
-
-
