@@ -25,6 +25,7 @@ const concat=array1.concat(array2)
 const result =array2.concat(array2)
 
 
+
 //concat the string
 
 const str1="hello"

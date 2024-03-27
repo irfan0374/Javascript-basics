@@ -8,22 +8,18 @@
 //     console.log(item)
 // })
 
-
-let promise1=new Promise((res,rej)=>{
-    setTimeout(()=>{
-        res("succesfull")
-    },2000)
-})
-let promise2=new Promise((res,rej)=>{
-    setTimeout(()=>{
-        rej(new Error("something went wrong"))
-        
-    },2000)
-})
+const arr = [1, 2, 3, 4, 5, 6];
+let result = arr.forEach((item,i) => {
+     arr[i]=item * 2;
+});
+console.log(arr);
 
 
-let result=Promise.any([promise1,promise2]).then((res)=>{
-    console.log(res)
-}).catch((error)=>{
-    console.log(error.message)
+const obj={
+    name:"irfan",
+    age:33
+}
+let ans=Object.keys(obj).forEach((item)=>{
+    console.log(`${item}:${obj[item]}`)
 })
+console.log(obj)

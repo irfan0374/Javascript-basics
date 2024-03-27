@@ -48,3 +48,6 @@ let ForEach = score.forEach((res) => {
 
 let result1 = score.filter((res) => res % 2 === 0).map((ans) => ans * 2)
 console.log(result1)
+
+
+

@@ -14,5 +14,7 @@ let result1=arr.slice(1,3)
 console.log(result)   // [ 3, 4 ]
 
 
+l
+
 
 

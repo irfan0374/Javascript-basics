@@ -2,8 +2,7 @@
 
 function para(first,...number){
     let total =0
-    console.log(first)
-    console.log(number)
+  
     for(let hel of number){
         total+=hel
     }
