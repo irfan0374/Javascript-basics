@@ -52,5 +52,15 @@ res.end(JSON.stringify({name:"irfan",age:"22"}))
 server.listen(3000,()=>{
   console.log("server running succefull")
 })
+function auth(req,res,next){
+  if(req.query==true){
+    next()
+  }else{
+    res.send('no auth')
+  }
+ 
+}
 
-
+app.get('/user',auth,(req,res)=>{
+  console.log("hello world")
+})

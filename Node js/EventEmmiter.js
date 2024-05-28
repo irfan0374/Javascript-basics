@@ -7,3 +7,14 @@ myEvent.on('greet', () => {
 })
 
 myEvent.emit('greet')
+
+
+
+const emitter=require('events')
+
+
+const event=new emitter()
+event.on("start",()=>{
+    console.log("hello lets go")
+})
+event.emit("start")
